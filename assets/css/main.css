@@ -1,0 +1,11 @@
+@import "./reset.css";
+@import "./primevue.css";
+@import "../../node_modules/primeflex/primeflex.min.css";
+@import "./themes/lara-light-blue.css";
+@import "./container.css";
+
+:root {
+  --u-blue: #015abb;
+  --u-yellow: #fed701;
+  --u-red: #ff6584;
+}
