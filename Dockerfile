@@ -2,11 +2,13 @@ FROM node:14-alpine
 
 WORKDIR /app
 
-COPY package*.json .
+COPY package*.json /app/
 
 RUN npm install
 
-COPY . .
+COPY . /app/
+
+ENV HOST 0.0.0.0
 
 RUN npm run build
 
