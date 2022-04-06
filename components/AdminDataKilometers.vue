@@ -12,10 +12,7 @@
       <Column sortable field="kilometers" header="Kilometer">
         <template #body="slotProps">
           {{
-            new Intl.NumberFormat('de-DE', {
-              minimumFractionDigits: 3,
-              maximumFractionDigits: 3,
-            }).format(slotProps.data.kilometers)
+            Math.trunc(slotProps.data.kilometers)
           }}
         </template>
       </Column>
@@ -36,10 +33,7 @@
       </div>
       <span>Name:</span> {{ currentData.name }}<br/>
       <span>Kilometer:</span> {{
-        new Intl.NumberFormat('de-DE', {
-          minimumFractionDigits: 3,
-          maximumFractionDigits: 3,
-        }).format(currentData.kilometers)
+        Math.trunc(currentData.kilometers)
       }} km
       <div class="mt-4">
         <img :src="currentData.image" alt="Image">

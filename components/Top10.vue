@@ -21,10 +21,7 @@
                   <span class="text-900 line-height-3">{{ item.name ? item.name : 'anonymous' }}:
                 <span class="text-blue-500">
                   {{
-                    new Intl.NumberFormat('de-DE', {
-                      minimumFractionDigits: 3,
-                      maximumFractionDigits: 3,
-                    }).format(item.kilometers)
+                    Math.trunc(item.kilometers)
                   }} km
                 </span>
             </span>

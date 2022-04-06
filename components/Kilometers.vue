@@ -7,8 +7,7 @@
       </div>
       <div class="field mb-5 col-12 md:col-6">
         <label for="km">Kilometer<span class="mandatory">*</span></label>
-        <InputNumber id="km" v-model="kilometers" :min="0" mode="decimal" locale="de-DE" :minFractionDigits="3"
-                     suffix=" km"/>
+        <InputNumber id="km" v-model="kilometers" :min="0" locale="de-DE" :maxFractionDigits="0" suffix=" km"/>
       </div>
       <div class="field mb-5 col-12">
         <label for="imageKm">Fotonachweis (max. 5MB)<span class="mandatory">*</span></label>
