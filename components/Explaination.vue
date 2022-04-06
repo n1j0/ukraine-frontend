@@ -31,8 +31,12 @@ export default {
         text: '<p>Sie radeln, laufen, gehen eine Strecke, dokumentieren diese Leistung und laden Sie hier bei uns hoch – jemand, der das gut und unterstützenswert findet, spendet entweder auf unserem Hilfskonto oder bei einer anerkannten Hilfsorganisation einen Betrag und honoriert somit die Aktivität.</p><p>Bei Spenden möchten wir Sie ebenfalls um den Upload einer Bestätigung bitten.</p>',
       },
       {
+        title: 'Das Spendenkonto',
+        text: '<p>Die Raiba Kuchl unterstützt uns mit einem spesenfreien Konto:<br/>Treuhandkonto FH Kuchl/Nachbar in Not<br/><strong>IBAN AT86 3502 9000 0015 6729</strong></p><p>Falls sie direkt an Nachbar in Not oder eine andere Hilfsorganisation spenden wollen, tun Sie das bitte - wir akzeptieren jeden Spendenkanal und wollen so viel Geld wie möglich bewegen!</p>',
+      },
+      {
         title: '100% für die Opfer',
-        text: '<p>Alle Beträge werden zu 100% an Hilfsbedürftige weitergeleitet. Die aktuelle Lage hat uns dazu bewogen, dass wir derzeit alle eingehenden Beträge an "Nachbar in Not", "Rotes Kreuz" oder "Ärzte ohne Grenzen" weiterleiten wollen. Längerfristig wollen wir Studierenden in der Ukraine helfen. Die entsprechenden Kontakte sind im Entstehen!</p><p>Unser ehemaliger Gastprofessor Stefan Sagmeister machte den wertvollen Spruch: Helping other people helps me! Nutzen wir diese Chance!</p><p class="mt-3">Prof. Günter Berger und sein engagiertes Studententeam</p>',
+        text: '<p>Alle Beträge werden zu 100% an Hilfsbedürftige weitergeleitet. Die aktuelle Lage hat uns dazu bewogen, dass wir derzeit alle eingehenden Beträge an "Nachbar in Not" weiterleiten wollen. Längerfristig wollen wir Studierenden in der Ukraine helfen. Ukrainische Studierende an der FH haben dazu schon Ihre Hilfe zugesagt!</p><p>Unser ehemaliger Gastprofessor Stefan Sagmeister machte den wertvollen Spruch: Helping other people helps me! Nutzen wir diese Chance!</p><p class="mt-3">Prof. Günter Berger und sein engagiertes Studententeam</p>',
       },
     ]
   })
