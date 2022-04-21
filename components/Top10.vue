@@ -37,8 +37,8 @@
             </ul>
           </div>
           <div>
-            <span class="block text-600 font-medium mb-3">SPENDEN</span>
-            <ul class="p-0 mx-0 mt-0 mb-4 list-none">
+            <span class="block text-600 font-medium mt-4 lg:mt-0">SPENDEN</span>
+            <ul class="p-0 mx-0 mt-0 list-none">
               <template v-if="data.donations.length > 0">
                 <li v-for="(item, idx) in data.donations" :key="idx"
                     class="flex align-items-center py-2 surface-border"
