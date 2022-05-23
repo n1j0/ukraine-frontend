@@ -36,7 +36,35 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/auth-next'
+    '@nuxtjs/auth-next',
+    [
+      '@nuxtjs/i18n',
+      {
+        langDir: 'translations/',
+        locales: [
+          {
+            code: 'de',
+            name: 'Deutsch',
+            file: 'de-DE.js',
+            iso: 'de-DE',
+          },
+          {
+            code: 'en',
+            name: 'English',
+            file: 'en-GB.js',
+            iso: 'en-GB',
+          },
+        ],
+        defaultLocale: 'de',
+        fallbackLocale: 'de',
+        strategy: 'no_prefix',
+        /*detectBrowserLanguage: {
+          useCookie: true,
+          fallbackLocale: 'en',
+          redirectOn: 'root',
+        },*/
+      },
+    ],
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

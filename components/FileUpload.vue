@@ -3,7 +3,7 @@
     <input type="file" accept="image/*" class="custom-file-input" :id="id" @change="fileHandler">
     <label data-browse="Browse" class="custom-file-label" :for="id">
       <span class="block form-file-text">
-          {{ file ? file.name : 'Datei auswählen...' }}
+          {{ file ? file.name : $t('forms.fileUpload') }}
       </span>
     </label>
   </div>

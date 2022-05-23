@@ -2,10 +2,10 @@
   <div class="surface-ground px-4 py-6 md:px-6 lg:px-8">
     <div class="container">
       <TabView>
-        <TabPanel header="Kilometer">
+        <TabPanel :header="$t('forms.kilometers.header')">
           <kilometers/>
         </TabPanel>
-        <TabPanel header="Spenden">
+        <TabPanel :header="$t('forms.donations.header')">
           <donations/>
         </TabPanel>
       </TabView>

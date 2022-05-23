@@ -3,11 +3,11 @@
     <div class="container">
       <div class="surface-card shadow-2 border-round p-4">
         <div class="flex justify-content-center mb-4">
-          <div class="text-900 font-medium text-3xl">Top 10</div>
+          <div class="text-900 font-medium text-3xl">{{ $t('topTen.headline') }}</div>
         </div>
         <div class="u-grid">
           <div>
-            <span class="block text-600 font-medium mb-3">KILOMETER</span>
+            <span class="block text-600 font-medium mb-3">{{ $t('topTen.kilometers') }}</span>
             <ul class="p-0 m-0 list-none">
               <template v-if="data.kilometers.length > 0">
                 <li v-for="(item, idx) in data.kilometers" :key="idx"
@@ -37,7 +37,7 @@
             </ul>
           </div>
           <div>
-            <span class="block text-600 font-medium mt-4 lg:mt-0">SPENDEN</span>
+            <span class="block text-600 font-medium mt-4 lg:mt-0">{{ $t('topTen.donations') }}</span>
             <ul class="p-0 mx-0 mt-0 list-none">
               <template v-if="data.donations.length > 0">
                 <li v-for="(item, idx) in data.donations" :key="idx"
