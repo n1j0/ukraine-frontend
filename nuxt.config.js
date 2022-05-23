@@ -55,14 +55,14 @@ export default {
             iso: 'en-GB',
           },
         ],
-        defaultLocale: 'de',
-        fallbackLocale: 'de',
+        defaultLocale: 'en',
+        fallbackLocale: 'en',
         strategy: 'no_prefix',
-        /*detectBrowserLanguage: {
+        detectBrowserLanguage: {
           useCookie: true,
           fallbackLocale: 'en',
           redirectOn: 'root',
-        },*/
+        },
       },
     ],
   ],
