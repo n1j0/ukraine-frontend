@@ -16,9 +16,9 @@
 <script>
 export default {
   name: 'Explaination',
-  data() {
-    return {
-      content: [
+  computed: {
+    content() {
+      return [
         {
           title: this.$t('explanation.motivation.title'),
           text: this.$t('explanation.motivation.text'),
@@ -40,8 +40,8 @@ export default {
           text: this.$t('explanation.hundredPercent.text'),
         },
       ]
-    }
-  }
+    },
+  },
 }
 </script>
 
