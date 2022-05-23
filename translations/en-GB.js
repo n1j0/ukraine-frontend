@@ -61,11 +61,17 @@ const forms = {
   },
 }
 
+const footer = {
+  imprint: 'Imprint',
+  dataSecurity: 'Data security',
+}
+
 module.exports = {
   hero,
   explanation,
   topTen,
   activities,
   forms,
+  footer,
 }
 
