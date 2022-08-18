@@ -63,7 +63,7 @@ const forms = {
 
 const footer = {
   imprint: 'Imprint',
-  dataSecurity: 'Data security',
+  dataSecurity: 'Privacy policy',
 }
 
 module.exports = {
