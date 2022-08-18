@@ -1,5 +1,6 @@
 <template>
   <div>
+    <LanguageSwitch/>
     <nuxt/>
     <Footer/>
   </div>
@@ -7,9 +8,10 @@
 
 <script>
 import Footer from '@/components/Footer'
+import LanguageSwitch from '@/components/LanguageSwitch'
 export default {
   name: 'default',
-  components: { Footer }
+  components: { LanguageSwitch, Footer }
 }
 </script>
 
